@@ -12,7 +12,16 @@ public class DiscussPost {
     private int status;
     private Date createTime;
     private int comment;
+    private int commentCount;
     private double score;
+
+    public int getCommentCount() {
+        return commentCount;
+    }
+
+    public void setCommentCount(int commentCount) {
+        this.commentCount = commentCount;
+    }
 
     public int getId() {
         return id;
